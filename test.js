@@ -1,6 +1,7 @@
 const {
     async,
     bluebird,
+    q,
     fetch,
     chai,
     sinonChai,
@@ -14,6 +15,7 @@ const {
 
 console.log('	', typeof async, 'async');
 console.log('	', typeof bluebird, 'bluebird');
+console.log('	', typeof q, 'q');
 console.log('	', typeof fetch, 'fetch');
 console.log('	', typeof chai, 'chai');
 console.log('	', typeof sinonChai, 'sinonChai');
